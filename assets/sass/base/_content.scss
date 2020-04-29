@@ -1,0 +1,18 @@
+@import 'variables';
+
+.content {
+    margin-top: $header-height + 20px;
+}
+
+.home-content {
+    margin-top: 40px;
+}
+
+.content, .home-content {
+    padding-left: $global-left-padding;
+}
+
+.home-item {
+    display: block;
+    width: 500px;
+}

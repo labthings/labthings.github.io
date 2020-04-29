@@ -1,0 +1,49 @@
+.hero {
+    height: 100vh;
+    padding-left: 100px;
+}
+
+.hero-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    align-content: start
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    align-content: start
+}
+
+.hero-item {
+    max-width: 350px;
+    flex: 1 0 auto;
+    margin: 10px 10px 10px 0;
+}
+
+.hero-item p {
+    margin-top: 0;
+    color: #000;
+}
+
+.hero-item img {
+    width: 220px;
+    margin-right: 50px;
+}
+
+#hero-chevron {
+    position: absolute;
+    top: 95vh;
+    left: 50vw;
+}

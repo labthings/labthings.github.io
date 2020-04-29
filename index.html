@@ -1,0 +1,87 @@
+---
+layout: default
+---
+
+<div id="vanta-hero" class="hero">
+    <div class="hero-content">
+        <div class="hero-item">
+            <img src="{{site.baseurl}}/assets/images/labthings_typelogo.svg"></img>
+            <p>
+                The open platform for connected laboratory instruments
+            </p>
+        </div>
+    </div>
+    <div id="hero-chevron">
+        <span class="chevron bottom"></span>
+    </div>
+
+</div>
+
+<div class="home-content">
+
+    <h1>For Lab Developers</h1>
+    <ul class="list">
+        <li class="home-item list-item">
+            <h2>IP for the Lab</h2>
+            <p>HTTP + Web Sockets + mDNS discovery</p>
+        </li>
+
+        <li class="home-item list-item">
+            <h2>Standardised spec, common descriptions</h2>
+        </li>
+
+        <li class="home-item list-item">
+            <h2>Adapt your existing Python code</h2>
+            <p>
+                <code class="python">
+                    <pre>{% include snippets/adapt.py %}</pre>
+                </code>
+            </p>
+        </li>
+
+        <li class="home-item list-item">
+            <h2>Self-documenting APIs</h2>
+            <p>
+                <code class="json">
+                    <pre>{% include snippets/doc_snippet.json %}</pre>
+                </code>
+            </p>
+        </li>
+
+        <li class="home-item list-item">
+            <h2>Built-in extension management</h2>
+            <p>Built in extension management allows developers to add and remove functionality from your Lab Thing.</p>
+        </li>
+
+    </ul>
+
+
+    <p>
+        <h1>For Lab Users</h1>
+        <h2>A complete lab overview</h2>
+        <h2>Common networking</h2>
+        <h2>Interactive documentation</h2>
+        <h2>Scripting and Discovery</h2>
+        <h2>Visual programming</h2>
+        <h2>Events and data broadcasting</h2>
+    </p>
+
+</div>
+
+<script src="{{site.baseurl}}/assets/js/three.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/vanta.net.min.js"></script>
+<script>
+    VANTA.NET({
+        el: "#vanta-hero",
+        mouseControls: false,
+        touchControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x5bed6c,
+        backgroundColor: 0xFAF7FD,
+        spacing: 16.00,
+        showDots: false
+    })
+</script>

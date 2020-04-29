@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+{% include head.html %}
+
+<body>
+  <div id="header" class="acrylic dropshadow">
+    <div class="float-left">
+      <img src="{{site.baseurl}}/assets/images/labthings_emblem.svg"></img>
+    </div>
+    <div class="float-right">
+      <a href="https://github.com/labthings">
+        <img src="{{site.baseurl}}/assets/images/GitHub-Mark.svg"></img>
+      </a>
+    </div>
+    <div class="float-right center">
+      <a href="https://github.com/labthings">
+        GitHub
+      </a>
+    </div>
+  </div>
+  <main class="main" aria-label="Content">
+    {{ content }}
+  </main>
+
+</body>
+
+</html>

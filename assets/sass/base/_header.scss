@@ -1,0 +1,15 @@
+@import 'variables';
+
+#header {
+    position: fixed;
+    top: 0;
+    padding: 10px 50px 10px $global-left-padding;
+    width: 100%;
+    height: $header-height;
+    z-index: 9999;
+    box-sizing: border-box;
+}
+
+#header img {
+    height: 40px;
+}

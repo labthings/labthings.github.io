@@ -1,0 +1,17 @@
+{
+  "title": "currentSpectrum",
+  "description": "Current spectrum snapshot",
+  "readOnly": true,
+  "forms": [{
+    "op": [
+      "readproperty"
+    ],
+    "href": "/api/spectrum",
+    "contentType": "application/json"
+  }],
+  "type": "array",
+  "items": {
+    "type": "integer",
+    "format": "int32"
+  }
+}
