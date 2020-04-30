@@ -10,17 +10,15 @@
 
 .content, .home-content {
     padding-left: $global-left-padding;
+    padding-right: $global-right-padding;
     @media screen and (max-width: $break-small) {
         padding-left: $global-left-padding-mobile;
+        padding-right: $global-right-padding-mobile;
     }
 }
 
 .home-item {
     display: block;
-    width: 480px;
-    @media screen and (max-width: $break-small) {
-        width: 100%;
-    }
 }
 
 .home-item-p-small {
