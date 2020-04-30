@@ -10,7 +10,7 @@
 
 .content, .home-content {
     padding-left: $global-left-padding;
-    padding-right: $global-right-padding;
+    padding-right: $global-left-padding;
     @media screen and (max-width: $break-small) {
         padding-left: $global-left-padding-mobile;
         padding-right: $global-right-padding-mobile;
