@@ -10,9 +10,23 @@
 
 .content, .home-content {
     padding-left: $global-left-padding;
+    @media screen and (max-width: $break-small) {
+        padding-left: $global-left-padding-mobile;
+    }
 }
 
 .home-item {
     display: block;
-    width: 500px;
+    width: 480px;
+    @media screen and (max-width: $break-small) {
+        width: 100%;
+    }
+}
+
+.home-item-p-small {
+    height: 70px;
+}
+
+.home-item-p-large {
+    height: 120px;
 }

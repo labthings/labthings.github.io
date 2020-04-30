@@ -1,0 +1,5 @@
+$ mdns-scan 
++ spectrometer._labthings._tcp.local
++ thermistor._labthings._tcp.local
++ ti-sapp-laser._labthings._tcp.local
++ xy-stage._labthings._tcp.local

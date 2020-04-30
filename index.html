@@ -23,29 +23,41 @@ layout: default
     <ul class="list">
         <li class="home-item list-item">
             <h2>IP for the Lab</h2>
-            <p>HTTP + Web Sockets + mDNS discovery</p>
+            <div class="home-item-p-large">
+                <p>
+                    <b>HTTP and WebSocket</b> APIs enable lab control with ubiquitous protocols. With billions of users, the technology is trusted.
+                </p>
+                <p>
+                    Device discovery leverages <b>mDNS</b>, the same standard protocol used by millions of connected devices.
+                </p>
+            </div>
+            <pre><code class="shell">{% include snippets/mdns-scan.shell %}</code></pre>
         </li>
 
         <li class="home-item list-item">
             <h2>Standardised spec, common descriptions</h2>
+            <div class="home-item-p-large">
+                <p>Why reinvent the wheel? The W3C have <a href="https://www.w3.org/WoT/">standardised designing and describing Web of Things devices.</a></p>
+                <p>LabThings implements these standards to provide a robust, interoperable communication framework.</p>
+            </div>
+            <pre><code class="json">{% include snippets/w3c_td.json %}</code></pre>
         </li>
 
         <li class="home-item list-item">
             <h2>Adapt your existing Python code</h2>
-            <p>
-                <code class="python">
-                    <pre>{% include snippets/adapt.py %}</pre>
-                </code>
-            </p>
+            <div class="home-item-p-small">
+                <p>With a couple of lines, convert your existing instrument control libraries into a fully documented, standardised, and discoverable API.</p>
+            </div>
+            <pre><code class="python">{% include snippets/adapt.py %}</code></pre>
+
         </li>
 
         <li class="home-item list-item">
             <h2>Self-documenting APIs</h2>
-            <p>
-                <code class="json">
-                    <pre>{% include snippets/doc_snippet.json %}</pre>
-                </code>
-            </p>
+            <div class="home-item-p-small">
+                <p>By parsing your device control code, W3C Thing Descriptions and interactive API documentation are created with zero additional work.</p>
+            </div>
+            <pre><code class="json">{% include snippets/doc_snippet.json %}</code></pre>
         </li>
 
         <li class="home-item list-item">

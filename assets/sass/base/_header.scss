@@ -8,6 +8,9 @@
     height: $header-height;
     z-index: 9999;
     box-sizing: border-box;
+    @media screen and (max-width: $break-small) {
+        padding: 10px 50px 10px $global-left-padding-mobile;
+    }
 }
 
 #header img {

@@ -1,6 +1,9 @@
 .hero {
     height: 100vh;
     padding-left: 100px;
+    @media screen and (max-width: $break-small) {
+        padding-left: $global-left-padding-mobile;
+    }
 }
 
 .hero-content {
